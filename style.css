@@ -32,22 +32,18 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-weight: 500;
-    color: #333;
     font-size: 30px;
+    background-image: linear-gradient(to right bottom, #00aefd, #ffa400);
+    color:  transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
 }
 
 nav ul li a:hover{
     text-decoration: underline;
 }
 
-.active{
-    text-decoration: none;
-    background-image: linear-gradient(to right bottom, #00aefd, #ffa400);
-    color:  transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-}
 
 .content{
     margin-top: 26px;
@@ -84,9 +80,14 @@ nav ul li a:hover{
 }
 
 
-.product h2{
+.product h4{
     text-align: center;
     padding: 22px 0;
+    font-size: 28px;
+    background-image: linear-gradient(to right bottom, #00aefd, #ffa400);
+    color:  transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .product-list{
@@ -141,7 +142,7 @@ nav ul li a:hover{
 
 footer{
     height: 60px;
-    background-image: linear-gradient(to right bottom, #00aefd, #ffa400);
+    background-image: linear-gradient(to right bottom, #00aefd, #af60ff);
     display: flex;
     align-items: center;
     justify-content: space-between;
